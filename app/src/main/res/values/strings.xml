@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DeliveriesLogs</string>
+    <string name="title_activity_delivery_list">DeliveryList</string>
+    <string name="title_activity_delivery_details">DeliveryDetailsMap</string>
+</resources>
