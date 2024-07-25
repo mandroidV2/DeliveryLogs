@@ -21,10 +21,12 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected ImageLoader imageLoader;
     protected BaseActivity activity;
     protected DisplayImageOptions options;
+    protected String str;
 
     public BaseActivity() {
         super();
         options = Utils.displayImageOption();
+        str = 'hi'.toUpperCase();
     }
 
     /** Called when the activity is starting
